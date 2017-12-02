@@ -6,14 +6,14 @@
     "Prism.Core": "6.3.0",
     "Prism.Forms": "6.3.0",
     "Prism.Unity.Forms": "6.3.0",
-    "ReactiveProperty": "3.2.0",
+    "ReactiveProperty": "3.6.0",
     "System.Reactive": "3.0.0",
     "System.Reactive.Core": "3.0.0",
     "System.Reactive.Interfaces": "3.0.0",
     "System.Reactive.Linq": "3.0.0",
     "System.Reactive.PlatformServices": "3.0.0",
     "Unity": "4.0.1",
-    "Xamarin.Forms": "2.5.0.77107"
+    "Xamarin.Forms": "2.5.0.91635"
   },
   "frameworks": {
     "netstandard1.4": {
