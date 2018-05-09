@@ -1,12 +1,12 @@
 ﻿using Android.App;
 using Android.Content.PM;
 using Android.OS;
-using Microsoft.Practices.Unity;
-using Prism.Unity;
+using Prism;
+using Prism.Ioc;
 
 namespace Sample.Droid
 {
-	[Activity(Label = "Sample.Droid", Icon = "@drawable/icon",Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Sample.Droid", Icon = "@drawable/icon",Theme = "@style/MyTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
 	{
 		protected override void OnCreate(Bundle bundle)
@@ -24,9 +24,9 @@ namespace Sample.Droid
 
 	public class AndroidInitializer : IPlatformInitializer
 	{
-		public void RegisterTypes(IUnityContainer container)
-		{
-
-		}
-	}
+        public void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+            
+        }
+    }
 }
