@@ -5,6 +5,6 @@ Xamarin.Forms + Prism.Forms + ReactiveProperty + .NETStandard2.0 のセット環
 
 ---
 
-* Xamarin.Forms 3.0.0.446417
+* Xamarin.Forms 3.0.0.561731
 * Prism.Unity.Forms 7.0.0.396
-* ReactiveProperty 4.2.2
+* ReactiveProperty 5.0.0
